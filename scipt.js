@@ -10,12 +10,7 @@ let userSelections = [];
 
 // Theme configuration with display names
 const themes = {
-    'vocabulary': { displayName: 'Vocabulary' },
-    'tables': { displayName: 'Table' },
-    'indianRulers': { displayName: 'Indian Rulers Timeline' },
-    'atomicNumbers': { displayName: 'Atomic Numbers' },
-    'trignometricEquations': { displayName: 'Trigonometric Equations' }
-    // Add more themes as needed
+    'trignometry': { displayName: 'trignometry' }
 };
 
 // Initialize based on current page
