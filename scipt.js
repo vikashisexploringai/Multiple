@@ -10,7 +10,7 @@ let userSelections = [];
 
 // Theme configuration with display names
 const themes = {
-    'trignometry': { displayName: 'trignometry' }
+    'trignometry': { displayName: 'Trignometry' }
 };
 
 // Initialize based on current page
