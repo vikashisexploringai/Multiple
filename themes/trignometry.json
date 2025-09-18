@@ -2,114 +2,16 @@
   {
     "question": "Which of the following sine values are correct?",
     "choices": [
-      "sin 0° = 0",
-      "sin 30° = 1/2",
-      "sin 45° = 1/√2",
       "sin 60° = √3/2",
-      "sin 90° = 1",
-      "sin 120° = √3/2",
-      "sin 180° = 0",
-      "sin 270° = -1"
+      "sin 0° = 1",
+      "sin 37° = 3/5",
+      "sin 45° = 1/√2"
     ],
     "answers": [
-      "sin 0° = 0",
-      "sin 30° = 1/2",
-      "sin 45° = 1/√2",
       "sin 60° = √3/2",
-      "sin 90° = 1",
-      "sin 120° = √3/2",
-      "sin 180° = 0",
-      "sin 270° = -1"
+      "sin 37° = 3/5",
+      "sin 45° = 1/√2"
     ],
     "explanation": "All these sine values are correct. Sine function values: 0°=0, 30°=1/2, 45°=1/√2, 60°=√3/2, 90°=1, 120°=√3/2, 180°=0, 270°=-1."
-  },
-  {
-    "question": "Select the correct sine values from the options below:",
-    "choices": [
-      "sin 0° = 1",
-      "sin 30° = √3/2",
-      "sin 45° = 1/2",
-      "sin 60° = 1/2",
-      "sin 90° = 0",
-      "sin 150° = 1/2",
-      "sin 210° = -1/2",
-      "sin 330° = -1/2"
-    ],
-    "answers": [
-      "sin 150° = 1/2",
-      "sin 210° = -1/2",
-      "sin 330° = -1/2"
-    ],
-    "explanation": "Correct values: sin 150° = 1/2, sin 210° = -1/2, sin 330° = -1/2. Incorrect: sin 0° = 0 (not 1), sin 30° = 1/2 (not √3/2), sin 45° = 1/√2 (not 1/2), sin 60° = √3/2 (not 1/2), sin 90° = 1 (not 0)."
-  },
-  {
-    "question": "Which statements about sine function values are true?",
-    "choices": [
-      "sin(0) = 0",
-      "sin(π/6) = 1/2",
-      "sin(π/4) = √2/2",
-      "sin(π/3) = √3/2",
-      "sin(π/2) = 1",
-      "sin(2π/3) = √3/2",
-      "sin(π) = 0",
-      "sin(3π/2) = -1"
-    ],
-    "answers": [
-      "sin(0) = 0",
-      "sin(π/6) = 1/2",
-      "sin(π/4) = √2/2",
-      "sin(π/3) = √3/2",
-      "sin(π/2) = 1",
-      "sin(2π/3) = √3/2",
-      "sin(π) = 0",
-      "sin(3π/2) = -1"
-    ],
-    "explanation": "All these radian values are correct: sin(0) = 0, sin(π/6) = 1/2, sin(π/4) = √2/2, sin(π/3) = √3/2, sin(π/2) = 1, sin(2π/3) = √3/2, sin(π) = 0, sin(3π/2) = -1."
-  },
-  {
-    "question": "Identify the correct sine values from the options:",
-    "choices": [
-      "sin 15° = (√6 - √2)/4",
-      "sin 75° = (√6 + √2)/4",
-      "sin 105° = (√6 + √2)/4",
-      "sin 135° = √2/2",
-      "sin 225° = -√2/2",
-      "sin 300° = -√3/2",
-      "sin 315° = -√2/2",
-      "sin 360° = 1"
-    ],
-    "answers": [
-      "sin 15° = (√6 - √2)/4",
-      "sin 75° = (√6 + √2)/4",
-      "sin 105° = (√6 + √2)/4",
-      "sin 135° = √2/2",
-      "sin 225° = -√2/2",
-      "sin 300° = -√3/2",
-      "sin 315° = -√2/2"
-    ],
-    "explanation": "All these are correct except sin 360° which equals 0, not 1. Special angle formulas: sin 15° = (√6 - √2)/4, sin 75° = (√6 + √2)/4, sin 105° = sin(75°) = (√6 + √2)/4, sin 135° = √2/2, sin 225° = -√2/2, sin 300° = -√3/2, sin 315° = -√2/2."
-  },
-  {
-    "question": "Which of these sine function properties are correct?",
-    "choices": [
-      "sin(-θ) = -sin θ",
-      "sin(90° - θ) = cos θ",
-      "sin(90° + θ) = cos θ",
-      "sin(180° - θ) = sin θ",
-      "sin(180° + θ) = -sin θ",
-      "sin(360° - θ) = -sin θ",
-      "sin(θ + 2π) = sin θ",
-      "sin(θ + π) = -sin θ"
-    ],
-    "answers": [
-      "sin(-θ) = -sin θ",
-      "sin(90° - θ) = cos θ",
-      "sin(180° - θ) = sin θ",
-      "sin(180° + θ) = -sin θ",
-      "sin(360° - θ) = -sin θ",
-      "sin(θ + 2π) = sin θ",
-      "sin(θ + π) = -sin θ"
-    ],
-    "explanation": "All these properties are correct except sin(90° + θ) = cos θ, which is incorrect. The correct identity is sin(90° + θ) = cos(-θ) = cos θ, but only for absolute value. Actually, sin(90° + θ) = cos θ is not generally true for all θ - it's only true when cos θ = cos(-θ), which is always true since cosine is even, but the sign might be misleading. The standard identity is sin(90° + θ) = cos(θ), but this is technically correct for all θ since cos is even. I'll keep it as correct but note that sin(90° + θ) = cos θ is actually a valid identity."
   }
 ]
