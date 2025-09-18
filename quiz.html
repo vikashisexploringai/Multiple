@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Session</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <!-- Progress Fraction -->
+        <div class="progress-fraction">
+            <span id="progress-counter">0/0</span>
+        </div>
+        
+        <!-- Timer -->
+        <div class="timer-container">
+            <span id="stopwatch">00:00</span>
+        </div>
+        
+        <!-- Question Container -->
+        <div id="question-container">
+            <div class="question-box">
+                <h2 id="question-text">Loading questions...</h2>
+            </div>
+            <p class="multiple-select-note">Select all correct answers</p>
+            <div class="options-grid" id="options-container"></div>
+            
+            <!-- Submit Button -->
+            <div class="button-container">
+                <button id="submit-button" class="glow">Submit Answers</button>
+            </div>
+            
+            <!-- Explanation Container -->
+            <div id="explanation-container" style="display: none;">
+                <p id="explanation-text"></p>
+                <button id="next-button" class="glow">Next Question</button>
+            </div>
+        </div>
+        
+        <!-- Result Container -->
+        <div id="result-container" style="display: none;">
+            <h2 class="glow-text">Quiz Complete!</h2>
+            <div class="result-stats">
+                <div class="stat-box">
+                    <span class="stat-label">Score</span>
+                    <span class="stat-value" id="score">0</span>/<span id="total">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Time</span>
+                    <span class="stat-value" id="completion-time">00:00</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Accuracy</span>
+                    <span class="stat-value" id="accuracy">0%</span>
+                </div>
+            </div>
+            <div class="result-actions">
+                <button onclick="location.reload()" class="glow">Try Again</button>
+                <button onclick="window.location.href='days.html'" class="glow">Choose Another Day</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
